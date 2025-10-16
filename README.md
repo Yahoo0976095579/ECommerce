@@ -7,7 +7,6 @@
 - 專案簡介
 - 功能特色
 - 技術棧
-- 系統需求
 - 使用說明
 - 畫面展示
 - 資料庫關聯
@@ -41,12 +40,6 @@
 - Entity Framework Core（Code-First）
 - Razor View
 - Bootstrap
-
-## 系統需求
-
-- `.NET SDK 8.x`
-- `SQL Server`（LocalDB／Express／或其他相容資料庫）
-- EF Core CLI（選用）：`dotnet-ef`
 
 
 ## 使用說明
@@ -97,6 +90,6 @@
 
 ## 作者
 
-李柏駿（Bo-Chun Lee）
+李柏駿（Bo-Jun Lee）
 
 📍 Taiwan ｜ 💻 ASP.NET Core MVC / Web API / EF Core
