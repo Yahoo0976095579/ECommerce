@@ -8,12 +8,9 @@
 - 功能特色
 - 技術棧
 - 系統需求
-- 安裝指南
 - 使用說明
 - 畫面展示
 - 資料庫關聯
-- 貢獻方式
-- 授權資訊
 - 作者
 
 ## 專案簡介
@@ -51,23 +48,6 @@
 - `SQL Server`（LocalDB／Express／或其他相容資料庫）
 - EF Core CLI（選用）：`dotnet-ef`
 
-## 安裝指南
-
-1. 下載或複製專案
-   - 直接下載 ZIP 並解壓縮；或使用 Git：
-     - `git clone <your-repo-url>`
-2. 還原與建置
-   - 在專案根目錄執行：
-     - `dotnet restore`
-     - `dotnet build`
-3. 設定資料庫連線
-   - 於 `appsettings.json` 設定 `ConnectionStrings:DefaultConnection`（請依您的環境調整）。
-4. 套用資料庫（若已建立 Migrations）
-   - 安裝 EF 工具（如未安裝）：`dotnet tool install --global dotnet-ef`
-   - 套用資料庫：`dotnet ef database update`
-5. 啟動網站
-   - `dotnet run`
-   - 依命令列顯示的 URL 進入（例如 `http://localhost:5000/`，實際埠號以輸出為準）。
 
 ## 使用說明
 
@@ -114,22 +94,6 @@
 - 使用者 → 訂單 → 訂單項目 → 產品
 - 產品 ↔ 分類（多對多關聯）
 
-## 貢獻方式
-
-- 歡迎 Issue 與 Pull Request：
-  - Fork 本專案
-  - 建立分支：`git checkout -b feature/your-feature`
-  - 提交變更：`git commit -m "feat: add your feature"`
-  - 推送分支：`git push origin feature/your-feature`
-  - 建立 Pull Request 並說明內容與影響範圍
-- 建議遵循
-  - C# 命名與 MVC 分層慣例
-  - 保持一致的格式與必要註解
-  - 為重大變更附上測試或操作說明
-
-## 授權資訊
-
-本專案採用 MIT License。您可自由使用、修改與散布；若需要不同授權條款，請與作者聯繫。
 
 ## 作者
 
